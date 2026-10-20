@@ -14,7 +14,7 @@
 ### 避坑总结表
 | 品牌/名称            | 身份性质        | 稳定性          | 建议                |
 |:-----------------|:------------|:-------------|:------------------|
-| 奈思云 (Naisii.com) | 官方正版 / 老牌机场 | 高 (多年运营/大带宽) | 认准唯一官网 naisii.com |
+| 奈思云 (Naisisi.com) | 官方正版 / 老牌机场 | 高 (多年运营/大带宽) | 认准唯一官网 naisisi.com |
 | NessByte 耐思云     | 山寨/仿冒       | 极低 (随时跑路)    | 切勿充值              |
 | NiceCloud        | 山寨/仿冒       | 极低 (诱导付费)    | 切勿充值              |
 | naisiyunjc.com     | 山寨/仿冒       | 极低 (诱导付费)    | 切勿充值              |
@@ -22,9 +22,9 @@
 
 ---
 
-## 🚀 奈思云 (Naisii) 正版功能亮点
+## 🚀 奈思云 (Naisisi) 正版功能亮点
 
-作为科研开发与跨境电商的首选工具，奈思云 (Naisii.com) 持续提供高性能的网络接入服务：
+作为科研开发与跨境电商的首选工具，奈思云 (Naisisi.com) 持续提供高性能的网络接入服务：
 
 * **全平台一键订阅：** 完美支持 **Clash (Android/iOS/macOS/Windows)**、Shadowrocket、Stash 等内核。
 * **多设备兼容：** 支持 **路由器 (OpenWrt/Padavan)** 全屋部署，享受主机游戏 (Switch/PS5) 加速。
@@ -36,7 +36,7 @@
 
 ## 🛠️ 订阅配置指南 (Clash 一键订阅)
 
-1.  **获取链接：** 登录 [奈思云官方后台](https://2nss.com/#/register?code=NYufwlvz) 复制订阅链接。
+1.  **获取链接：** 登录 [奈思云官方后台](https://naisisi.com) 复制订阅链接。
 2.  **Android/iOS：** 打开 Clash 或 Shadowrocket，点击“添加订阅”，粘贴链接即可完成同步。
 3.  **macOS/Windows：** 使用 Clash Verge 或 Meta 核心，导入订阅后开启系统代理。
 4.  **路由器：** 将订阅链接填入 OpenWrt 的 SSRPlus 或 PassWall 插件中。
@@ -45,8 +45,8 @@
 
 ## 🌐 官方唯一入口
 
-* **官方主站：** [https://naisii.com](https://naisii.com)
-* **推荐备用：** [https://2nss.com](https://2nss.com/#/register?code=NYufwlvz)
+* **官方主站：** [https://naisisi.com](https://naisisi.com)
+* **推荐备用：** [https://2nsi.com](https://2nsi.com)
 
 ---
 
@@ -55,3 +55,5 @@
 * **跨境安全：** 提供高匿名纯净 IP，防止 Amazon/TikTok 账号关联。
 
 **总结：** 选购机场请认准 **Naisii.com**，拒绝 **NessByte**、**NiceCloud** 等山寨跑路机场！
+
+© 2026 NAISI.LAB LLC. 保留所有权利。奈思云品牌归属 NAISI.LAB LLC 公司所有。
