@@ -31,10 +31,48 @@
   <!-- Template Styles End -->
 
   <!-- Custom Browser Color Start -->
-  <meta name="theme-color" content="#0c0c0c">
-  <meta name="msapplication-navbutton-color" content="#0c0c0c">
-  <meta name="apple-mobile-web-app-status-bar-style" content="#0c0c0c">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-navbutton-color" content="#ffffff">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#ffffff">
   <!-- Custom Browser Color End -->
+
+  <style>
+    /* Custom styles to enforce white background and adjust text for readability */
+    body, html, .main, .fullscreen-bg, .main__content, .main__intro, .intro__content {
+      background-color: #ffffff !important;
+    }
+    .headline__title, .headline__subtitle, .headline p, .headline li {
+      color: #111111 !important;
+    }
+    .notice-list {
+      list-style: none;
+      padding: 0;
+      margin: 20px auto 30px auto;
+      max-width: 600px;
+      text-align: left;
+      background: #f8f9fa;
+      border: 1px solid #e9ecef;
+      border-radius: 8px;
+      padding: 20px;
+    }
+    .notice-list p {
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    .notice-list li {
+      margin-bottom: 8px;
+      color: #555;
+      font-size: 16px;
+    }
+    .notice-list a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    .notice-list a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 
 <body class="loaded">
@@ -56,8 +94,8 @@
 
           <!-- Say Hello Button Start -->
           <a id="sayhello-trigger" class="btn btn-s sayhello-trigger">
-            <span class="title">向世界说你好！</span>
-            <span class="hover">Say Hello</span>
+            <span class="title" style="color: #333;">向世界说你好！</span>
+            <span class="hover" style="color: #333;">Say Hello</span>
           </a>
           <!-- Say Hello Button End -->
 
@@ -68,19 +106,19 @@
   <!-- Header End -->
 
   <!-- Main Section Start -->
-  <section id="main" class="main full active animate-in">
-    <div class="fullscreen-wrapper">
+  <section id="main" class="main full active animate-in" style="background-color: #ffffff;">
+    <div class="fullscreen-wrapper" style="background-color: #ffffff;">
 
       <!-- Fullscreen Background Start-->
-      <div class="fullscreen-bg media-full-1">
-        <!-- local video background -->
+      <div class="fullscreen-bg media-full-1" style="background-color: #ffffff; opacity: 0.05;">
+        <!-- local video background (hidden or low opacity for white background look) -->
         <div class="video-background">
           <video id="main-video" preload="auto" autoplay="autoplay" loop="loop" muted="muted">
             <source type="video/mp4" src="./naisii/img/video.mp4">
           </video>
         </div>
-        <!-- Dark gradient cover layer -->
-        <div class="color-layer layer-dark-03"></div>
+        <!-- Light cover layer instead of dark -->
+        <div class="color-layer" style="background-color: #ffffff;"></div>
       </div>
       <!-- Fullscreen Background End-->
 
@@ -97,19 +135,33 @@
 
                 <!-- Headline Start -->
                 <div id="headline" class="headline centered-mobile text-center">
-                  <span class="headline__subtitle" style="font-size: 42px;">Naisii.com</span>
+                  <span class="headline__subtitle" style="font-size: 42px; color: #111;">Naisii.com</span>
                   <div class="d-md-flex align-items-md-center justify-content-md-center">
-                    <h1 class="headline__title title-centered">欢迎体验奈思云</h1>
+                    <h1 class="headline__title title-centered" style="color: #111;">欢迎体验奈思云</h1>
                   </div>
+
+                  <!-- Added Notice List -->
+                  <div class="notice-list">
+                    <p>由于防火墙动态封锁，如遇到官网无法访问，请收藏以下最新入口：</p>
+                    <ul>
+                      <li>- 官方主站： <a href="https://naisii.com" target="_blank">naisii.com</a> (需要翻墙)</li>
+                      <li>- 备用地址一： <a href="https://naisisi.com" target="_blank">naisisi.com</a></li>
+                      <li>- 备用地址二： <a href="https://2nsi.com" target="_blank">2nsi.com</a></li>
+                      <li>- 备用地址三： <a href="https://2nnss.com" target="_blank">2nnss.com</a></li>
+                      <li>- 备用地址四： <a href="https://2nnss.com" target="_blank">2nnss.com</a></li>
+                      <li>- 线路页： <a href="https://ninilinini.com" target="_blank">ninilinini.com</a> 妮妮理妮妮点看</li>
+                    </ul>
+                  </div>
+
                   <div class="headline__btnholder">
-                    <a href="https://2nss.com/#/register?code=NYufwlvz" target="_blank" class="btn btn-l btn-light">
-                      <span class="btn-title">VPN会员中心</span>
-                      <span class="btn-hover">点我跳转</span>
+                    <a href="https://2nss.com/#/register?code=NYufwlvz" target="_blank" class="btn btn-l btn-light" style="border: 1px solid #ccc;">
+                      <span class="btn-title" style="color: #333;">VPN会员中心</span>
+                      <span class="btn-hover" style="color: #333;">点我跳转</span>
                     </a>
                     <a href="https://2nss.com/#/register?code=NYufwlvz" target="_blank"
-                      class="btn btn-l btn-outline-light">
-                      <span class="btn-title">免费注册账号</span>
-                      <span class="btn-hover">限时体验</span>
+                      class="btn btn-l btn-outline-light" style="border: 1px solid #333;">
+                      <span class="btn-title" style="color: #333;">免费注册账号</span>
+                      <span class="btn-hover" style="color: #333;">限时体验</span>
                     </a>
                   </div>
                 </div>
@@ -123,42 +175,15 @@
                 <div class="container-mobile fullheight-mobile d-flex align-items-center">
                   <div class="container-fluid px-0">
                     <div class="row gx-0">
-                      <div class="col-6 text-start footer-mobile__socials">
-                        <!-- Home screen socials links -->
-                        <ul class="socials d-flex align-items-start">
-                          <li>
-                            <a class="btn btn-s-text" href="https://naisii.com" target="_blank">
-                              <span class="title">文档</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a class="btn btn-s-text" href="https://naisii.com" target="_blank">
-                              <span class="title">杂货</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a class="btn btn-s-text" href="https://naisii.com" target="_blank">
-                              <span class="title">电影</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a class="btn btn-s-text" href="https://naisii.com" target="_blank">
-                              <span class="title">公益</span>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="col-6 text-end footer-mobile__copyright">
-                        <p class="copyright bright">
+                      <div class="col-12 text-center footer-mobile__copyright">
+                        <p class="copyright" style="color: #555;">
                           <i class="fa-regular fa-copyright"></i>
-                          <a class="contact-link" href="https://naisii.com" target="_blank">Naisii Labs S.A.</a>
-                          © 2016 - 2023 All rights reserved.
+                          奈思云品牌归属 NAISI.LAB LLC 公司所有
                         </p>
                       </div>
                     </div>
                   </div>
                 </div>
-
               </div>
               <!-- Footer Mobile End -->
 
@@ -175,46 +200,14 @@
   <!-- Main Section End -->
 
   <!-- Footer Desktop Start -->
-  <footer id="footer" class="footer-desktop full">
+  <footer id="footer" class="footer-desktop full" style="background-color: #ffffff;">
     <div class="container-fluid px-0 fullheight">
       <div class="row gx-0 fullheight">
-        <div class="col-6 footer-desktop__left fullheight">
-          <div class="container-desktop d-flex fullheight justify-content-start align-items-center">
-            <!-- Home screen socials links -->
-            <ul class="socials">
-              <li>
-                <a class="btn btn-s-text" href="https://docs.naisii.com" target="_blank">
-                  <span class="title">使用文档</span>
-                  <span class="hover">Help</span>
-                </a>
-              </li>
-              <li>
-                <a class="btn btn-s-text" href="https://naisii.com" target="_blank">
-                  <span class="title">杂货铺</span>
-                  <span class="hover">Shop</span>
-                </a>
-              </li>
-              <li>
-                <a class="btn btn-s-text" href="https://mnaisii.com" target="_blank">
-                  <span class="title">4K电影</span>
-                  <span class="hover">Emby</span>
-                </a>
-              </li>
-              <li>
-                <a class="btn btn-s-text" href="https://naisii.com" target="_blank">
-                  <span class="title">公益账号</span>
-                  <span class="hover">Free</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-6 footer-desktop__right fullheight">
-          <div class="container-desktop fullheight d-flex justify-content-end align-items-center">
-            <p class="copyright bright">
+        <div class="col-12 footer-desktop__right fullheight">
+          <div class="container-desktop fullheight d-flex justify-content-center align-items-center">
+            <p class="copyright" style="color: #555;">
               <i class="fa-regular fa-copyright"></i>
-              <a class="contact-link" href="https://naisii.com" target="_blank">Naisii Labs S.A. </a>
-              © 2016 - 2023 All rights reserved.
+              奈思云品牌归属 NAISI.LAB LLC 公司所有
             </p>
           </div>
         </div>
