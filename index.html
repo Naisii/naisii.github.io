@@ -1,237 +1,331 @@
 <!DOCTYPE html>
-<!-- saved from url=(0014)about:internet -->
-<html lang="en">
-
+<html lang="zh-CN">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-  <!-- Page Title-->
-  <title>奈思云 - Naisii.com - Github备用线路页</title>
-
-  <!-- Meta Tags-->
-  <meta name="description" content="奈思云为您提供全球诸多国家地区的ISP原生线路节点IP，为您的跨境电商加速，让直播不卡顿，4K视频无缓冲零等待，奈思云让全球网络触手可及！">
-  <meta name="keywords" content="奈思云备用官网，耐思云官网，奈丝云nicecloud, 奈思云VPN, 奈思云加速器, 奈云VPN, 奈云加速器, 奈云代理, 云梯VPN, 柚子云, 涂鸦VPN, 涂鸦云">
-  <meta name="author" content="mix_design">
-
-  <!-- Viewport Meta-->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-  <!-- Template Favicon & Icons Start -->
-  <link rel="icon" href="naisii/favicon.ico" sizes="any">
-  <link rel="icon" href="naisii/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="naisii/apple-touch-icon.png">
-  <link rel="manifest" href="naisii/manifest.webmanifest">
-  <!-- Template Favicon & Icons End -->
-
-  <!-- Template Styles Start -->
-  <link rel="stylesheet" type="text/css" href="naisii/">
-  <link rel="stylesheet" type="text/css" href="naisii/plugins.css">
-  <link rel="stylesheet" type="text/css" href="naisii/main.css">
-  <!-- Template Styles End -->
-
-  <!-- Custom Browser Color Start -->
-  <meta name="theme-color" content="#ffffff">
-  <meta name="msapplication-navbutton-color" content="#ffffff">
-  <meta name="apple-mobile-web-app-status-bar-style" content="#ffffff">
-  <!-- Custom Browser Color End -->
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>奈思云 · 最新入口</title>
+  <link rel="icon" href="./logo.png" />
   <style>
-    /* Custom styles to enforce white background and adjust text for readability */
-    body, html, .main, .fullscreen-bg, .main__content, .main__intro, .intro__content {
-      background-color: #ffffff !important;
+    :root {
+      --bg: #f7f6f3;
+      --surface: #ffffff;
+      --ink: #111111;
+      --ink-2: #333333;
+      --ink-3: #6b7280;
+      --ink-4: #9ca3af;
+      --line: #e5e7eb;
+      --fill: #f3f2ef;
+      --red: #d92626;
+      --red-soft: #fef2f2;
+      --shadow: 4px 4px 0 #111111;
+      --font: "Segoe UI", "PingFang SC", "Microsoft YaHei", "Hiragino Sans", system-ui, sans-serif;
     }
-    .headline__title, .headline__subtitle, .headline p, .headline li {
-      color: #111111 !important;
-    }
-    .notice-list {
-      list-style: none;
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
       padding: 0;
-      margin: 20px auto 30px auto;
-      max-width: 600px;
-      text-align: left;
-      background: #f8f9fa;
-      border: 1px solid #e9ecef;
-      border-radius: 8px;
-      padding: 20px;
+      min-height: 100%;
+      background-color: var(--bg);
     }
-    .notice-list p {
-      font-weight: bold;
-      margin-bottom: 10px;
-      color: #333;
+
+    body {
+      font-family: var(--font);
+      color: var(--ink);
+      background-image:
+        radial-gradient(ellipse 80% 50% at 50% -10%, rgba(217, 38, 38, 0.06), transparent 55%),
+        linear-gradient(180deg, #faf9f7 0%, var(--bg) 40%, #f0efe9 100%);
+      -webkit-font-smoothing: antialiased;
     }
-    .notice-list li {
-      margin-bottom: 8px;
-      color: #555;
-      font-size: 16px;
+
+    a { color: inherit; text-decoration: none; }
+
+    .page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 48px 20px 32px;
     }
-    .notice-list a {
-      color: #0066cc;
-      text-decoration: none;
+
+    .main {
+      width: min(520px, 100%);
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 28px;
     }
-    .notice-list a:hover {
-      text-decoration: underline;
+
+    .brand {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      text-align: center;
+      animation: rise 0.55s ease both;
+    }
+
+    .logo-mark {
+      width: 72px;
+      height: 72px;
+      border: 2px solid var(--ink);
+      box-shadow: var(--shadow);
+      background: #000;
+      overflow: hidden;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .logo-mark:hover {
+      transform: translate(-2px, -2px);
+      box-shadow: 6px 6px 0 var(--ink);
+    }
+
+    .logo-mark img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .brand-name {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--ink-3);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      line-height: 1.25;
+      color: var(--ink);
+    }
+
+    .card {
+      width: 100%;
+      background: var(--surface);
+      border: 2px solid var(--ink);
+      box-shadow: var(--shadow);
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      animation: rise 0.55s ease 0.08s both;
+    }
+
+    .intro {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.7;
+      color: var(--ink-2);
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .intro strong {
+      color: var(--ink);
+      font-weight: 700;
+    }
+
+    .list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .item a {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto auto;
+      grid-template-areas:
+        "label note arrow"
+        "host  host arrow";
+      column-gap: 10px;
+      row-gap: 4px;
+      align-items: center;
+      min-height: 52px;
+      padding: 12px 14px;
+      border: 1px solid var(--line);
+      background: var(--fill);
+      transition: background 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+    }
+
+    .item a:hover {
+      background: var(--red-soft);
+      border-color: var(--red);
+      transform: translateX(2px);
+    }
+
+    .item a:focus-visible {
+      outline: 2px solid var(--red);
+      outline-offset: 2px;
+    }
+
+    .label {
+      grid-area: label;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--ink-2);
+    }
+
+    .host {
+      grid-area: host;
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--ink);
+      font-variant-numeric: tabular-nums;
+      overflow-wrap: anywhere;
+    }
+
+    .item a:hover .host { color: var(--red); }
+
+    .note {
+      grid-area: note;
+      font-size: 12px;
+      color: var(--ink-3);
+      white-space: nowrap;
+      justify-self: end;
+    }
+
+    .note.warn {
+      color: var(--red);
+      font-weight: 600;
+    }
+
+    .arrow {
+      grid-area: arrow;
+      width: 8px;
+      height: 8px;
+      border-right: 2px solid var(--ink-4);
+      border-bottom: 2px solid var(--ink-4);
+      transform: rotate(-45deg);
+      transition: border-color 0.15s ease, transform 0.15s ease;
+    }
+
+    .item a:hover .arrow {
+      border-color: var(--red);
+      transform: rotate(-45deg) translate(1px, 1px);
+    }
+
+    .tip {
+      margin: 0;
+      font-size: 12px;
+      line-height: 1.6;
+      color: var(--ink-3);
+      text-align: center;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 16px 0 8px;
+      text-align: center;
+      font-size: 12px;
+      color: var(--ink-4);
+      animation: rise 0.55s ease 0.16s both;
+    }
+
+    @keyframes rise {
+      from {
+        opacity: 0;
+        transform: translateY(12px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .page { padding: 32px 16px 24px; }
+      .main { gap: 24px; }
+      h1 { font-size: 24px; }
+      .card { padding: 16px; }
+      .logo-mark { width: 64px; height: 64px; }
+      .item a {
+        grid-template-columns: minmax(0, 1fr) auto;
+      }
+      .note { white-space: normal; text-align: right; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .brand, .card, footer { animation: none; }
+      .logo-mark, .item a, .arrow { transition: none; }
     }
   </style>
 </head>
+<body>
+  <div class="page">
+    <main class="main">
+      <header class="brand">
+        <a class="logo-mark" href="https://naisisi.com" target="_blank" rel="noopener noreferrer" aria-label="奈思云">
+          <img src="https://naisisi.com/assets/brand-logo.png" alt="奈思云 NS" width="72" height="72" />
+        </a>
+        <div class="brand-name">Naisisi.com</div>
+        <h1>欢迎体验奈思云</h1>
+      </header>
 
-<body class="loaded">
+      <section class="card" aria-labelledby="portal-title">
+        <p class="intro" id="portal-title">
+          <strong>由于防火墙动态封锁，如遇到官网无法访问，请收藏以下最新入口：</strong>
+        </p>
 
-  <!-- Header Start -->
-  <header id="header" class="header full">
-    <div class="container-fluid px-0 fullheight-mobile">
-      <div class="row gx-0 fullheight-mobile">
-        <div class="col-6 fullheight-mobile header__left">
+        <ul class="list">
+          <li class="item">
+            <a href="https://naisii.com" target="_blank" rel="noopener noreferrer">
+              <span class="label">官方主站</span>
+              <span class="note warn">需要翻墙</span>
+              <span class="host">naisii.com</span>
+              <span class="arrow" aria-hidden="true"></span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="https://naisisi.com" target="_blank" rel="noopener noreferrer">
+              <span class="label">备用地址一</span>
+              <span class="note">推荐收藏</span>
+              <span class="host">naisisi.com</span>
+              <span class="arrow" aria-hidden="true"></span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="https://2nsi.com" target="_blank" rel="noopener noreferrer">
+              <span class="label">备用地址二</span>
+              <span class="host">2nsi.com</span>
+              <span class="arrow" aria-hidden="true"></span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="https://2nnss.com" target="_blank" rel="noopener noreferrer">
+              <span class="label">备用地址三</span>
+              <span class="host">2nnss.com</span>
+              <span class="arrow" aria-hidden="true"></span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="https://ninilinini.com" target="_blank" rel="noopener noreferrer">
+              <span class="label">线路页</span>
+              <span class="note">妮妮理妮妮点看</span>
+              <span class="host">ninilinini.com</span>
+              <span class="arrow" aria-hidden="true"></span>
+            </a>
+          </li>
+        </ul>
 
-          <!-- Logo Start -->
-          <div class="logo">
-            <img src="naisii/logo.svg" alt="奈思云 - Naisii">
-          </div>
-          <!-- Logo End -->
+        <p class="tip">建议同时收藏 2–3 个入口，避免单点失效。</p>
+      </section>
+    </main>
 
-        </div>
-        <div class="col-6 fullheight header__right">
-
-          <!-- Say Hello Button Start -->
-          <a id="sayhello-trigger" class="btn btn-s sayhello-trigger">
-            <span class="title" style="color: #333;">向世界说你好！</span>
-            <span class="hover" style="color: #333;">Say Hello</span>
-          </a>
-          <!-- Say Hello Button End -->
-
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- Header End -->
-
-  <!-- Main Section Start -->
-  <section id="main" class="main full active animate-in" style="background-color: #ffffff;">
-    <div class="fullscreen-wrapper" style="background-color: #ffffff;">
-
-      <!-- Fullscreen Background Start-->
-      <div class="fullscreen-bg media-full-1" style="background-color: #ffffff; opacity: 0.05;">
-        <!-- local video background (hidden or low opacity for white background look) -->
-        <div class="video-background">
-          <video id="main-video" preload="auto" autoplay="autoplay" loop="loop" muted="muted">
-            <source type="video/mp4" src="./naisii/img/video.mp4">
-          </video>
-        </div>
-        <!-- Light cover layer instead of dark -->
-        <div class="color-layer" style="background-color: #ffffff;"></div>
-      </div>
-      <!-- Fullscreen Background End-->
-
-      <!-- Main Section Content Start -->
-      <div class="main__content fullheight-mobile">
-        <div class="container-fluid px-0 fullheight-mobile">
-          <div class="row gx-0 fullheight-mobile">
-
-            <!-- Main Section Intro Start -->
-            <div class="col-12 main__intro fullheight-mobile">
-
-              <!-- Main Intro Content Start -->
-              <div class="intro__content fullheight-mobile">
-
-                <!-- Headline Start -->
-                <div id="headline" class="headline centered-mobile text-center">
-                  <span class="headline__subtitle" style="font-size: 42px; color: #111;">Naisii.com</span>
-                  <div class="d-md-flex align-items-md-center justify-content-md-center">
-                    <h1 class="headline__title title-centered" style="color: #111;">欢迎体验奈思云</h1>
-                  </div>
-
-                  <!-- Added Notice List -->
-                  <div class="notice-list">
-                    <p>由于防火墙动态封锁，如遇到官网无法访问，请收藏以下最新入口：</p>
-                    <ul>
-                      <li>- 官方主站： <a href="https://naisii.com" target="_blank">naisii.com</a> (需要翻墙)</li>
-                      <li>- 备用地址一： <a href="https://naisisi.com" target="_blank">naisisi.com</a></li>
-                      <li>- 备用地址二： <a href="https://2nsi.com" target="_blank">2nsi.com</a></li>
-                      <li>- 备用地址三： <a href="https://2nnss.com" target="_blank">2nnss.com</a></li>
-                      <li>- 备用地址四： <a href="https://2nnss.com" target="_blank">2nnss.com</a></li>
-                      <li>- 线路页： <a href="https://ninilinini.com" target="_blank">ninilinini.com</a> 妮妮理妮妮点看</li>
-                    </ul>
-                  </div>
-
-                  <div class="headline__btnholder">
-                    <a href="https://2nss.com/#/register?code=NYufwlvz" target="_blank" class="btn btn-l btn-light" style="border: 1px solid #ccc;">
-                      <span class="btn-title" style="color: #333;">VPN会员中心</span>
-                      <span class="btn-hover" style="color: #333;">点我跳转</span>
-                    </a>
-                    <a href="https://2nss.com/#/register?code=NYufwlvz" target="_blank"
-                      class="btn btn-l btn-outline-light" style="border: 1px solid #333;">
-                      <span class="btn-title" style="color: #333;">免费注册账号</span>
-                      <span class="btn-hover" style="color: #333;">限时体验</span>
-                    </a>
-                  </div>
-                </div>
-                <!-- Headline End -->
-
-              </div>
-              <!-- Main Intro Content End -->
-
-              <!-- Footer Mobile Start -->
-              <div class="footer-mobile full">
-                <div class="container-mobile fullheight-mobile d-flex align-items-center">
-                  <div class="container-fluid px-0">
-                    <div class="row gx-0">
-                      <div class="col-12 text-center footer-mobile__copyright">
-                        <p class="copyright" style="color: #555;">
-                          <i class="fa-regular fa-copyright"></i>
-                          奈思云品牌归属 NAISI.LAB LLC 公司所有
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Footer Mobile End -->
-
-            </div>
-            <!-- Main Section Intro End -->
-
-          </div>
-        </div>
-      </div>
-      <!-- Main Section Content End -->
-
-    </div>
-  </section>
-  <!-- Main Section End -->
-
-  <!-- Footer Desktop Start -->
-  <footer id="footer" class="footer-desktop full" style="background-color: #ffffff;">
-    <div class="container-fluid px-0 fullheight">
-      <div class="row gx-0 fullheight">
-        <div class="col-12 footer-desktop__right fullheight">
-          <div class="container-desktop fullheight d-flex justify-content-center align-items-center">
-            <p class="copyright" style="color: #555;">
-              <i class="fa-regular fa-copyright"></i>
-              奈思云品牌归属 NAISI.LAB LLC 公司所有
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!-- Footer Desktop End -->
-
-  <!-- Load Scripts Start -->
-  <script src="naisii/libs.min.js"></script>
-  <script src="naisii/gallery-init.js"></script>
-  <script src="naisii/custom.js"></script>
-  <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="0905cd83-e7df-46e5-bab0-386ebb1c03f4";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
-  <!-- Load Scripts End -->
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MQ8XLBSNHB"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-MQ8XLBSNHB');
-  </script>
-
+    <footer>
+      © 奈思云品牌归属 NAISI.LAB LLC 公司所有
+    </footer>
+  </div>
 </body>
-
 </html>
